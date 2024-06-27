@@ -65,6 +65,10 @@ public class Turma {
     }
     public Turma() {
     }
+    public String toCSV() {
+        return tamanhoTurma + ";" + aprovado
+                + ";" + reprovado + ";" + menor + ";" + maior + ";" + media;
+    }
 
     
 }

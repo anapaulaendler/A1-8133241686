@@ -19,7 +19,6 @@ public class Menu {
             switch (n) {
                 case 1:
                     controle.fundirAlunosTurma();
-                    controle.gravar();
                     break;
             
                 default:

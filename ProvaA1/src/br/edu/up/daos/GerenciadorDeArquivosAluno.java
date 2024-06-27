@@ -15,7 +15,7 @@ import br.edu.up.modelos.Aluno;
         public String nomeDoArquivo;
 
         public GerenciadorDeArquivosAluno() {
-            Path caminhoArquivo = Paths.get("src", "br", "edu", "up", "csv", "alunos.csv");
+            Path caminhoArquivo = Paths.get("ProvaA1", "src", "br", "edu", "up", "csv", "alunos.csv");
             nomeDoArquivo = caminhoArquivo.toAbsolutePath().toString();
         }
 
